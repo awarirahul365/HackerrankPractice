@@ -1,6 +1,6 @@
-# Problem: https://www.hackerrank.com/challenges/write-a-function/problem
-# Score: 10
-
-
-def is_leap(y):
-    return y % 4 == 0 and (y % 100 != 0 or y % 400 == 0)
+n=int(input())
+if (n%400==0 or n%4==0 and n%100!=0):
+    print("True")
+else:
+    print("False")
+    
