@@ -1,6 +1,5 @@
-# Problem: https://www.hackerrank.com/challenges/python-loops/problem
-# Score: 10
-
-
-for i in range(int(input())):
-    print(i ** 2)
+if __name__ == '__main__':
+    n = int(raw_input())
+    for i in range(0,n):
+        prod=i**2
+        print(prod)
